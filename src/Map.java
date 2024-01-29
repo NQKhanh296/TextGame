@@ -6,6 +6,7 @@ import java.util.HashMap;
 
 public class Map {
     private HashMap<Integer,String> rooms=  new HashMap<>();
+    private int start=0;
 
 
     public Map(String file) {
